@@ -1,0 +1,16 @@
+---
+title: WinProcs
+
+exclude: ['/scripts', '/Gemfile', '/Makefile', '/README.md', '/CONTRIBUTING.md']
+
+permalink: pretty
+
+collections:
+  winprocs:
+    output: true
+
+defaults:
+  - scope:
+      path: '_winprocs'
+    values:
+      layout: process

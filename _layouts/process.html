@@ -1,0 +1,29 @@
+---
+layout: common
+---
+
+{% capture bin_name %}{% include get_bin_name path=page.path %}{% endcapture %}
+
+{% include page_title.html title=bin_name %}
+
+{% include function_list.html bin=page %}
+
+{{ page.description | markdownify }}
+
+{% for function_pair in site.data.characteristics %}
+{% assign function_id = function_pair[0] %}
+{% assign function = function_pair[1] %}
+{% assign examples = page.characteristics[function_id] %}
+{% unless examples %}{% continue %}{% endunless %}
+
+<h2 id="{{ function_id }}" class="function-name">{{- function.label -}}</h2>
+{{ function.description | markdownify }}
+
+<ul class="examples">
+
+    
+    <pre><code>{{ examples.long }}</code></pre>
+
+</ul>
+
+{% endfor %}

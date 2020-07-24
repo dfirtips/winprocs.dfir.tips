@@ -1,0 +1,8 @@
+<ul class="function-list">
+    {% for function_pair in site.data.characteristics %}
+    {% assign function_id = function_pair[0] %}
+    {% assign function = function_pair[1] %}
+    {% unless include.bin.characteristics[function_id] %}{% continue %}{% endunless %}
+    <li><a href="{{ include.bin.url }}#{{ function_id }}">{{function.label}}: {{ include.bin.characteristics[function_id].short }}</a></li>
+    {% endfor %}
+</ul>

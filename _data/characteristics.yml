@@ -1,0 +1,22 @@
+---
+# this is the rendering order of characteristics
+
+imagepath:
+  label: Image Path
+  description: Executable's image path.
+
+parentprocess:
+  label: Parent Process
+  description: A process which spawned the analyzed process.
+
+numberofinstances:
+  label: Number of Instances
+  description: Expected number of processes running which may normally run on Windows.
+
+useraccount:
+  label: User Account
+  description: Windows account with which the process was launched. This defines what privileges given process has.
+
+starttime:
+  label: Start Time
+  description: Expected time of process to be launched.
