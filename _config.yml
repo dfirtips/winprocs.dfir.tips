@@ -14,3 +14,5 @@ defaults:
       path: '_winprocs'
     values:
       layout: process
+
+dfirurl: winprocs
