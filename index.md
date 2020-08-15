@@ -7,6 +7,8 @@ WinProcs is a list of known Windows processes and their expected characteristics
 
 This was inspired by the [GTFOBins][] project for Windows. Initial data taken from [SANS poster][] - "Find Evil - Know Normal".
 
+Instruction on how to contribute is available [here](/contribute/).
+
 [GTFOBins]: https://gtfobins.github.io/
 [SANS poster]: https://digital-forensics.sans.org/media/SANS_Poster_2018_Hunt_Evil_FINAL.pdf
 

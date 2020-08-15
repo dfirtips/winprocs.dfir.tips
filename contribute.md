@@ -37,3 +37,4 @@ Pull requests adding new characteristics in [`_data/characteristics.yml`] are al
 
 [YAML]: http://yaml.org/
 [`_data/characteristics.yml`]: https://github.com/dfirtips/winprocs.dfir.tips/blob/master/_data/characteristics.yml
+[`_winprocs/`]: https://github.com/dfirtips/winprocs.dfir.tips/blob/master/_winprocs/
