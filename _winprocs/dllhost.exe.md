@@ -1,6 +1,6 @@
 ---
 description: |
-  The process for running DLL Surrogate COM Objects's on Windows. The dllhost process executes what is known as "Dll surrogates", which are DLL's hosting COM objects running inside processes. The command line argument of the dllhost process is ` /Processid:{CLSID}`. Malware author or threat actors can abuse this by registering / hijacking COM Objects and running them via the following command line `dllhost.exe /Processid:{Hijacked CLSID}` utility.
+  The process for running DLL Surrogate COM Objects's on Windows. The dllhost process executes what is known as "Dll surrogates", which are DLL's hosting COM objects running inside processes. The command line argument of the dllhost process is `/Processid:{CLSID}`. Malware author or threat actors can abuse this by registering / hijacking COM Objects and running them via the following command line `dllhost.exe /Processid:{Hijacked CLSID}` utility.
 characteristics:
   imagepath:
     short: System32 dir
